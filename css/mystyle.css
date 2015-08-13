@@ -1,0 +1,358 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,500);
+
+body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	background: #fff;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+}
+body h3{
+       color:#2276ca;
+}
+::selection {
+	color: #fff;
+	background: #D11027;
+}
+/* Slider */
+#hero-banner{
+  overflow: hidden;
+  height: 700px;
+  background: url('../images/banner/banner.jpg');
+  background-size:cover;
+  color:#fff;
+}
+#hero-banner.item {
+  height: 558px;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+#hero-banner.banner-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #000;
+}
+#hero-banner h2 {
+  margin-top: 299px;
+  font-size: 39px;
+  line-height: 49px; 
+
+  text-align: left;  
+}
+#hero-banner h2 b{
+color:#2276ca;
+}
+#hero-banner p { 
+  font-size: 22px; 
+margin-bottom:20px;
+line-height:35px; 
+text-align: left;
+}
+#hero-banner a{
+width: 150px;
+margin: 0;
+display: block;
+background: transparent;
+border: 2px solid #2276ca;
+float: left;
+}
+#hero-banner a:hover{
+text-align: center;
+width: 150px;
+margin: 0 auto;
+display: block;
+background: #2276ca;
+border: 2px solid #2276ca;
+color: #FFF;
+}
+#hero-banner.banner-inner h2 > span {
+  color: #45aed6;
+}
+#hero-banner.banner-inner .btn {
+  margin-top: 10px;
+} 
+ 
+#hero-text {
+  padding: 50px 0;
+  border-top: 1px solid #FFFFFF;
+}
+#hero-text h2 {
+  margin-top: 0;
+}
+#hero-text .btn {
+  margin-top: 40px;
+}
+#plan-choice{
+         overflow: hidden;
+         height: 700px;
+         background: url('../images/under-construction.jpg');
+         background-size:cover;
+         color:#fff;
+}
+#plan-choice h1{
+   text-align:center;
+   margin-top:75px;
+   padding: 50px 0;
+   color:black;
+}
+header {
+	position: fixed;
+	width: 100%; 
+	z-index: 100;
+	border-radius: 0;
+	top: 0px; 
+	border-bottom: 5px solid #2276ca;
+	background:#222222;
+}
+
+#services{
+	   padding: 100px 0;
+     height:700px;
+	   background: url('../images/img4.jpg');
+	   background-size: cover;
+}
+
+.gender-slide{
+  width:100%;
+  text-align:center !important;
+  line-height:5px;
+}
+.male-left{
+   float:left;
+}
+.female-right{
+  float:right;
+}
+input#male-choice, input#female-choice{
+  width:300px;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  background:#2276ca;
+  padding:8px 14px 10px;
+  border:1px solid #3e9cbf;
+  cursor:pointer;
+  font-size:1.5em;
+  font-family:'Open Sans', sans-serif;
+  letter-spacing:.1em;
+  text-shadow:0 -1px 0px rgba(0,0,0,3);
+  color:#fff;
+  -webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+  -moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+  box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+
+}
+
+.section-header {
+  margin-bottom: 50px;
+}
+.section-header p{
+text-align:center;
+}
+
+.section-header .section-title {
+  font-size: 44px;
+  color: #2276ca;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 0 20px; 
+  display: block;
+  text-align: center;
+}
+.section-header .section-title:before {
+  content: "";
+  position: absolute;
+  width: 140px;
+  bottom: -5px;
+  right: 0;
+  width: 30px;
+  background: rgb(34, 118, 202);
+  border-radius: 50%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+/*Gallery */
+.fitness-carousel h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 500px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.carousel-inner img{
+      width:55%;
+      margin:0 auto;
+}
+.fitness-carousel{
+  margin: 20px;
+}
+
+#gallery {
+  padding: 100px 0;
+  background: #FFFFFF;
+  background: url('../images/img4.jpg');
+  background-size: cover;
+}
+#gallery .gallery-filter {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 50px;
+  display: inline-block;
+}
+#gallery .gallery-filter > li {
+  float: left;
+  display: block;
+}
+#gallery .gallery-filter > li a {
+  display: block;
+  padding: 7px 15px;
+  margin:0px 2px;
+  color: #D7D7D7;
+  position: relative;
+  border-bottom: 2px solid transparent;
+  background: rgba(229, 229, 229, 0.29);
+}
+#gallery .gallery-filter > li a:hover,
+#gallery .gallery-filter > li a.active {
+  background: #F9690E;
+  color: #FFFFFF; 
+} 
+#gallery .gallery-items {
+  margin: -15px;
+}
+#gallery .gallery-item {
+  width: 24.9%;
+  float: left;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#gallery .gallery-item .gallery-item-inner{
+  position: relative;
+  border-bottom: 4px solid #2276CA;
+}
+#gallery .gallery-item .gallery-item-inner .gallery-info {
+  opacity: 0;
+  transition: opacity 400ms;
+  -webkit-transition: opacity 400ms;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 18px 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  height:100%;
+}
+
+#gallery .gallery-item .gallery-item-inner .preview { 
+  width: 60px;
+  height: 60px;
+  line-height: 36px;
+  text-align: center;
+  color: #2276CA;
+  display:block;
+  text-align: center;
+  margin: 45px auto;
+  font-size: 26px;
+  border: 0;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.53);
+}
+#gallery .gallery-item:hover {
+  opacity: 1;
+}
+/* Motivation */ 
+#motivation, #contact-page{
+  padding: 100px 0;
+  height: 700px;
+  background: #07080A;
+  background: url('../images/img4.jpg');
+  background-size: cover;
+}
+#motivation .motivation-video {
+  padding: 0;  
+}
+#motivation .motivation-video .video-img {
+  margin: 0;
+}
+#motivation .motivation-video .video-info { 
+  background: #222222;
+  color: #BBBBBB;
+  padding: 7px 0;
+  border-top: 2px solid #2276CA;
+  width: 300px;
+} 
+#motivation .motivation-video:hover> li > a {
+  color: #F9690E;
+}
+/* Nutrition */
+#nutrition {
+  padding: 100px 0;
+  background: #07080A;
+  background: url('../images/img4.jpg');    
+  background-size: cover; };
+}
+#nutrition .column-title{
+color:#fff;
+}
+#nutrition p{
+color:#fff;
+}
+#nutrition .listarrow li{
+color:#fff;
+}
+/* About Us */
+#about {
+  padding: 100px 0;
+  height:900px;
+  background: #07080A;
+  background: url('../images/img2.jpg');    
+  background-size: cover;
+};
+}
+#about .column-title{
+color:#fff;
+}
+#about p{
+color:#fff;
+}
+#about .listarrow li{
+color:#fff;
+}
+
+/* Footer */
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #2276CA;
+  background: #222222;
+  bottom:0;
+}
+
